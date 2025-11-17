@@ -9,8 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>document-alert</title>
-  <script type="module" crossorigin src="/code-alert/assets/index-B3ky4LuR.js"></script>
-  <link rel="stylesheet" crossorigin href="/code-alert/assets/index-DrFn_zTk.css">
+  <script type="module" crossorigin src="/code-alert/assets/index-vK6F4PyM.js"></script>
+  <link rel="stylesheet" crossorigin href="/code-alert/assets/index-BvPefiJb.css">
 </head>
 
 <body>
@@ -18,16 +18,19 @@
     <!-- Hero -->
     <section class="hero slide" id="inicio" aria-labelledby="hero-title">
       <div class="container container--narrow">
-        <h1 id="hero-title">Evita <mark>olvidos</mark> y <mark>sanciones</mark></h1>
+        <!-- <h1 id="hero-title">Evita <mark>olvidos</mark> y <mark>sanciones</mark></h1> -->
+        <h1 id="hero-title">Evita olvidos y sanciones</h1>
         <h2 class="lead">
-          Gestiona los vencimientos de tus clientes desde <mark>un solo lugar</mark>.
-          La herramienta para <mark>gestorías</mark> que te avisa <mark>automáticamente</mark> cuando caducan contratos, seguros o licencias
+          <!-- La herramienta para <mark>gestorías</mark> que reúne todos los documentos de tus clientes en un <mark>lugar centralizado</mark>, con <mark>avisos automáticos</mark> antes de su caducidad -->
+           La herramienta para <mark>gestorías</mark> que centraliza todas las <mark>obligaciones y documentación</mark> de tus clientes y te envía <mark>avisos automáticos</mark> antes de cada vencimiento
+          <!-- Gestiona los vencimientos de tus clientes desde <mark>un solo lugar</mark>.
+          La herramienta para <mark>gestorías</mark> que te avisa <mark>automáticamente</mark> cuando caducan contratos, seguros o licencias -->
         </h2>
         <div class="cta" id="cta">
           <form class="cta-form" action="#" method="post" novalidate>
             <!-- <label class="sr-only" for="email">Correo electrónico</label>
             <input id="email" name="email" type="email" placeholder="tu@email.com" required /> -->
-            <button type="button" class="btn btn--primary">Recibir acceso anticipado</button>
+            <button id="lead-access-button" type="button" class="btn btn--primary">Recibir acceso anticipado</button>
           </form>
           <!-- <small class="muted">Sin spam. Cancela cuando quieras.</small> -->
         </div>
@@ -37,6 +40,78 @@
       <article class="card">
         <img class="card-image" src="/code-alert/images/mock-1.png">
       </article>
+    </section>
+    <section class="slide">
+      <div>
+        <h1 class="section-lead">
+          Los retos del control documental
+        </h1>
+        <div class="card-container">
+          <article class="card card-feature">
+            <div class="card-feature__icon">
+              <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.359 7.497V11.247M1.05595 14.623C0.189952 16.123 1.27295 17.997 3.00395 17.997H17.714C19.444 17.997 20.527 16.123 19.662 14.623L12.308 1.875C11.442 0.375 9.27595 0.375 8.40995 1.875L1.05595 14.623ZM10.359 14.247H10.366V14.255H10.359V14.247Z" stroke="#FF004D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            <h1 class="card-feature__title">Documentos dispersos</h1>
+            <p class="card-feature__desc">
+              Tienes certificados, seguros y contratos repartidos entre carpetas, correos y hojas de cálculo
+            </p>
+          </article>
+          <article class="card card-feature">
+            <div class="card-feature__icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.75 3.75V9.75H14.25M18.75 9.75C18.75 10.9319 18.5172 12.1022 18.0649 13.1942C17.6126 14.2861 16.9497 15.2782 16.114 16.114C15.2782 16.9497 14.2861 17.6126 13.1942 18.0649C12.1022 18.5172 10.9319 18.75 9.75 18.75C8.5681 18.75 7.39778 18.5172 6.30585 18.0649C5.21392 17.6126 4.22177 16.9497 3.38604 16.114C2.55031 15.2782 1.88738 14.2861 1.43508 13.1942C0.982792 12.1022 0.75 10.9319 0.75 9.75C0.75 7.36305 1.69821 5.07387 3.38604 3.38604C5.07387 1.69821 7.36305 0.75 9.75 0.75C12.1369 0.75 14.4261 1.69821 16.114 3.38604C17.8018 5.07387 18.75 7.36305 18.75 9.75Z" stroke="#FF004D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            <h1 class="card-feature__title">Fechas fuera de control</h1>
+            <p class="card-feature__desc">
+              Nadie recuerda cuándo caduca cada documento y siempre aparece alguna sorpresa de última hora
+            </p>
+          </article>
+          <article class="card card-feature">
+            <div class="card-feature__icon">
+              <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.28033 0.21967C0.987437 -0.0732233 0.512563 -0.0732233 0.21967 0.21967C-0.0732233 0.512563 -0.0732233 0.987437 0.21967 1.28033L0.75 0.75L1.28033 0.21967ZM7.5 7.5L6.96967 8.03033C7.26256 8.32322 7.73744 8.32322 8.03033 8.03033L7.5 7.5ZM11.786 3.214L12.3163 2.68367C12.0234 2.39078 11.5486 2.39078 11.2557 2.68367L11.786 3.214ZM20 12.178C20.4142 12.178 20.75 11.8422 20.75 11.428V4.678C20.75 4.26379 20.4142 3.928 20 3.928C19.5858 3.928 19.25 4.26379 19.25 4.678V10.678H13.25C12.8358 10.678 12.5 11.0138 12.5 11.428C12.5 11.8422 12.8358 12.178 13.25 12.178H20ZM0.75 0.75L0.21967 1.28033L6.96967 8.03033L7.5 7.5L8.03033 6.96967L1.28033 0.21967L0.75 0.75ZM7.5 7.5L8.03033 8.03033L12.3163 3.74433L11.786 3.214L11.2557 2.68367L6.96967 6.96967L7.5 7.5ZM11.786 3.214L11.2557 3.74433L19.4697 11.9583L20 11.428L20.5303 10.8977L12.3163 2.68367L11.786 3.214Z" fill="#FF004D"/>
+              </svg>
+            </div>
+
+            <h1 class="card-feature__title">Tiempo perdido en gestiones</h1>
+            <p class="card-feature__desc">
+              Revisar vencimientos o buscar versiones actualizadas te hace perder horas cada semana
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="slide">
+      <div id="feature-component"></div>
+    </section>
+    <section class="slide" id="section-form">
+      <div class="form-container">
+        <h1 class="section-lead">
+          Apúntate y sé de los primeros en acceder a la beta
+        </h1>
+        <form>
+            <div class="input-wrapper">
+              <label for="name">Email</label>
+              <input id="name" type="text" placeholder="example@email.com"/>
+            </div>
+            <div class="input-wrapper">
+              <label for="name">Nombre</label>
+              <input id="name" type="text" placeholder="John Doe"/>
+            </div>
+            <div class="input-wrapper">
+              <label for="name">Empresa</label>
+              <input id="name" type="text" placeholder="Pyme, autónomo, consultoría, etc."/>
+            </div>
+            <div>
+              <button type="button" class="btn btn--primary">Recibir acceso anticipado</button>
+            </div>
+        </form>
+      </div>
     </section>
 
     <!-- Problemas / features -->
@@ -89,6 +164,218 @@
     // año automático
     document.getElementById('year').textContent = new Date().getFullYear();
   </script> -->
+  <script>
+      document
+      .getElementById('lead-access-button')
+      .addEventListener('click', () => {
+        document.getElementById('section-form').scrollIntoView({ behavior: 'smooth' });
+      });
+  </script>
+
+  <!-- Feature -->
+  <script>
+    // src/main.js
+
+    // Datos compartidos (misma fuente para desktop y mobile)
+    const ITEMS = [
+      {
+        id: "opcion-1",
+        label: "Opción 1",
+        imageSrc:
+          "/images/card.jpg",
+        imageAlt: "Imagen de la opción 1",
+      },
+      {
+        id: "opcion-2",
+        label: "Opción 2",
+        imageSrc:
+          "/images/feature_2.svg",
+        imageAlt: "Imagen de la opción 2",
+      },
+      {
+        id: "opcion-3",
+        label: "Opción 3",
+        imageSrc:
+          "/images/feature_3.svg",
+        imageAlt: "Imagen de la opción 3",
+      },
+    ];
+
+    const root = document.getElementById("feature-component");
+
+    // estado sencillo para saber qué item está activo
+    let activeId = ITEMS[0]?.id ?? null;
+
+    // --- helpers de render ---
+
+    function createDesktopLayout() {
+      const wrapper = document.createElement("div");
+      wrapper.className = "feature__desktop";
+
+      // Columna de botones
+      const buttonsCol = document.createElement("div");
+      buttonsCol.className = "feature-desktop__buttons";
+
+      ITEMS.forEach((item) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className =
+          "tab-btn" + (item.id === activeId ? " tab-btn--active" : "");
+        btn.dataset.id = item.id;
+        
+
+        const article = document.createElement("article");
+        article.className = "feature-article"
+        const h2 = document.createElement("h2");
+        h2.textContent = "Centraliza todo en un solo lugar";
+        const h3 = document.createElement("h3");
+        h3.textContent = "Guarda contratos, licencias y certificados en un solo lugar accesible para todo el equipo";
+
+        article.appendChild(h2);
+        article.appendChild(h3);
+        btn.appendChild(article)
+
+        buttonsCol.appendChild(btn);
+
+      });
+
+      // Columna de imagen
+      const imageCol = document.createElement("div");
+      imageCol.className = "feature-desktop__image";
+
+      const img = document.createElement("img");
+      const activeItem = ITEMS.find((i) => i.id === activeId) ?? ITEMS[0];
+      img.src = activeItem.imageSrc;
+      img.alt = activeItem.imageAlt;
+      img.id = "feature-desktop-image";
+
+      imageCol.appendChild(img);
+
+      wrapper.appendChild(buttonsCol);
+      wrapper.appendChild(imageCol);
+
+      return wrapper;
+    }
+
+    function createMobileLayout() {
+      const wrapper = document.createElement("div");
+      wrapper.className = "feature__mobile";
+
+      ITEMS.forEach((item) => {
+        const itemDiv = document.createElement("div");
+        itemDiv.className = "accordion-item";
+        itemDiv.dataset.id = item.id;
+
+        const trigger = document.createElement("button");
+        trigger.type = "button";
+        trigger.className = "accordion-trigger";
+        trigger.textContent = item.label;
+        trigger.dataset.id = item.id;
+
+        const panel = document.createElement("div");
+        panel.className = "accordion-panel";
+
+        const img = document.createElement("img");
+        img.src = item.imageSrc;
+        img.alt = item.imageAlt;
+
+        panel.appendChild(img);
+        itemDiv.appendChild(trigger);
+        itemDiv.appendChild(panel);
+
+        wrapper.appendChild(itemDiv);
+      });
+
+      return wrapper;
+    }
+
+    // --- Montaje inicial ---
+
+    function initComponent() {
+      if (!root) return;
+
+      const container = document.createElement("div");
+      container.className = "feature";
+
+      // Creamos los dos layouts una sola vez
+      const desktopLayout = createDesktopLayout();
+      const mobileLayout = createMobileLayout();
+
+      container.appendChild(desktopLayout);
+      container.appendChild(mobileLayout);
+      root.appendChild(container);
+
+      setupDesktopEvents(desktopLayout);
+      setupMobileEvents(mobileLayout);
+    }
+
+    // --- Eventos desktop ---
+
+    function setupDesktopEvents(desktopLayout) {
+      const buttons = desktopLayout.querySelectorAll(".tab-btn");
+      const img = desktopLayout.querySelector("#feature-desktop-image");
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const id = btn.dataset.id;
+          if (!id || id === activeId) return;
+
+          activeId = id;
+
+          // actualizar clases de los botones
+          buttons.forEach((b) => b.classList.remove("tab-btn--active"));
+          btn.classList.add("tab-btn--active");
+
+          // actualizar imagen
+          const item = ITEMS.find((i) => i.id === id);
+          if (item && img) {
+            img.src = item.imageSrc;
+            img.alt = item.imageAlt;
+          }
+        });
+      });
+    }
+
+    // --- Eventos mobile (acordeón) ---
+
+    function setupMobileEvents(mobileLayout) {
+      const triggers = mobileLayout.querySelectorAll(".accordion-trigger");
+
+      triggers.forEach((trigger) => {
+        trigger.addEventListener("click", () => {
+          const id = trigger.dataset.id;
+          if (!id) return;
+
+          // panel asociado a este trigger
+          const itemDiv = trigger.closest(".accordion-item");
+          const panel = itemDiv?.querySelector(".accordion-panel");
+
+          const isOpen = panel?.classList.contains("accordion-panel--open");
+
+          // cerrar todos los paneles primero (acordeón exclusivo)
+          const allPanels = mobileLayout.querySelectorAll(".accordion-panel");
+          const allTriggers = mobileLayout.querySelectorAll(".accordion-trigger");
+          allPanels.forEach((p) => p.classList.remove("accordion-panel--open"));
+          allTriggers.forEach((t) =>
+            t.classList.remove("accordion-trigger--active")
+          );
+
+          if (!isOpen && panel) {
+            // abrir el recién clicado
+            panel.classList.add("accordion-panel--open");
+            trigger.classList.add("accordion-trigger--active");
+            activeId = id; // mantenemos sincronizado el "estado" con desktop
+          } else {
+            // si ya estaba abierto, lo dejamos todo cerrado
+            activeId = null;
+          }
+        });
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", initComponent);
+
+  </script>
 </body>
 
 </html>
